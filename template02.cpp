@@ -9,10 +9,7 @@ void listSort(T A[], const int n) // sorting function template
     {
         for (int j = i + 1; j < n; j++)
         {
-            // if (A[i] > A[j])
-            // {
-            //     swap(A[i], A[j]);
-            // }
+
             if (A[i] > A[j])
             {
 
@@ -28,15 +25,6 @@ void listSort(T A[], const int n) // sorting function template
         cout << endl;
     }
 }
-
-// template <class T>    // template definition of swap
-// void swap(T &x, T &y) // value passed on by referent
-// {
-//     T temp;
-//     temp = x;
-//     x = y;
-//     y = temp;
-// }
 
 int main()
 {
